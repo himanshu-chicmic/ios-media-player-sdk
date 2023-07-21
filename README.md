@@ -1,1 +1,1 @@
-# ios-media-player-sdk
+# ios-video-player-sdk
