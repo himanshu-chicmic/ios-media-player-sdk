@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50ACEC27378A4A5BD218BCB7 /* Pods_custom_media_player_custom_media_playerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190DA3737748427A46631AEF /* Pods_custom_media_player_custom_media_playerTests.framework */; };
+		6E3818C6873C4F640884EB5B /* Pods_custom_media_player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A3829F49BECD36D0DA927D /* Pods_custom_media_player.framework */; };
 		93C8B6A52A6A658700C11F94 /* custom_media_player.docc in Sources */ = {isa = PBXBuildFile; fileRef = 93C8B6A42A6A658700C11F94 /* custom_media_player.docc */; };
 		93C8B6AB2A6A658700C11F94 /* custom_media_player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C8B6A02A6A658700C11F94 /* custom_media_player.framework */; };
-		93C8B6B02A6A658700C11F94 /* custom_media_playerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C8B6AF2A6A658700C11F94 /* custom_media_playerTests.swift */; };
+		93C8B6B02A6A658700C11F94 /* CustomMediaPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C8B6AF2A6A658700C11F94 /* CustomMediaPlayerTests.swift */; };
 		93C8B6B12A6A658700C11F94 /* custom_media_player.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C8B6A32A6A658700C11F94 /* custom_media_player.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -24,11 +26,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		190DA3737748427A46631AEF /* Pods_custom_media_player_custom_media_playerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_custom_media_player_custom_media_playerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E3E64F4DCAF3FE00B52289C /* Pods-custom-media-player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-custom-media-player.debug.xcconfig"; path = "Target Support Files/Pods-custom-media-player/Pods-custom-media-player.debug.xcconfig"; sourceTree = "<group>"; };
+		495C158257DB0116EB868CCB /* Pods-custom-media-player-custom-media-playerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-custom-media-player-custom-media-playerTests.release.xcconfig"; path = "Target Support Files/Pods-custom-media-player-custom-media-playerTests/Pods-custom-media-player-custom-media-playerTests.release.xcconfig"; sourceTree = "<group>"; };
+		58A3829F49BECD36D0DA927D /* Pods_custom_media_player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_custom_media_player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C582AE37A022E942AF8C641 /* Pods-custom-media-player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-custom-media-player.release.xcconfig"; path = "Target Support Files/Pods-custom-media-player/Pods-custom-media-player.release.xcconfig"; sourceTree = "<group>"; };
 		93C8B6A02A6A658700C11F94 /* custom_media_player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = custom_media_player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C8B6A32A6A658700C11F94 /* custom_media_player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = custom_media_player.h; sourceTree = "<group>"; };
 		93C8B6A42A6A658700C11F94 /* custom_media_player.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = custom_media_player.docc; sourceTree = "<group>"; };
 		93C8B6AA2A6A658700C11F94 /* custom-media-playerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "custom-media-playerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93C8B6AF2A6A658700C11F94 /* custom_media_playerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_media_playerTests.swift; sourceTree = "<group>"; };
+		93C8B6AF2A6A658700C11F94 /* CustomMediaPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMediaPlayerTests.swift; sourceTree = "<group>"; };
+		D2D9121A9E0323B2DD62396D /* Pods-custom-media-player-custom-media-playerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-custom-media-player-custom-media-playerTests.debug.xcconfig"; path = "Target Support Files/Pods-custom-media-player-custom-media-playerTests/Pods-custom-media-player-custom-media-playerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E3818C6873C4F640884EB5B /* Pods_custom_media_player.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +53,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				93C8B6AB2A6A658700C11F94 /* custom_media_player.framework in Frameworks */,
+				50ACEC27378A4A5BD218BCB7 /* Pods_custom_media_player_custom_media_playerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33519F44EBEBC04F499A637B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E3E64F4DCAF3FE00B52289C /* Pods-custom-media-player.debug.xcconfig */,
+				6C582AE37A022E942AF8C641 /* Pods-custom-media-player.release.xcconfig */,
+				D2D9121A9E0323B2DD62396D /* Pods-custom-media-player-custom-media-playerTests.debug.xcconfig */,
+				495C158257DB0116EB868CCB /* Pods-custom-media-player-custom-media-playerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8BFAC9CAD4247BA71907EFDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58A3829F49BECD36D0DA927D /* Pods_custom_media_player.framework */,
+				190DA3737748427A46631AEF /* Pods_custom_media_player_custom_media_playerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		93C8B6962A6A658700C11F94 = {
 			isa = PBXGroup;
 			children = (
 				93C8B6A22A6A658700C11F94 /* custom-media-player */,
 				93C8B6AE2A6A658700C11F94 /* custom-media-playerTests */,
 				93C8B6A12A6A658700C11F94 /* Products */,
+				33519F44EBEBC04F499A637B /* Pods */,
+				8BFAC9CAD4247BA71907EFDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,7 +112,7 @@
 		93C8B6AE2A6A658700C11F94 /* custom-media-playerTests */ = {
 			isa = PBXGroup;
 			children = (
-				93C8B6AF2A6A658700C11F94 /* custom_media_playerTests.swift */,
+				93C8B6AF2A6A658700C11F94 /* CustomMediaPlayerTests.swift */,
 			);
 			path = "custom-media-playerTests";
 			sourceTree = "<group>";
@@ -103,10 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93C8B6B42A6A658700C11F94 /* Build configuration list for PBXNativeTarget "custom-media-player" */;
 			buildPhases = (
+				3BE63E3CC010951197EA1B65 /* [CP] Check Pods Manifest.lock */,
 				93C8B69B2A6A658700C11F94 /* Headers */,
 				93C8B69C2A6A658700C11F94 /* Sources */,
 				93C8B69D2A6A658700C11F94 /* Frameworks */,
 				93C8B69E2A6A658700C11F94 /* Resources */,
+				93C8B7032A6AA56700C11F94 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -121,6 +155,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93C8B6B72A6A658700C11F94 /* Build configuration list for PBXNativeTarget "custom-media-playerTests" */;
 			buildPhases = (
+				5B488C33CAF497A2BC5F2389 /* [CP] Check Pods Manifest.lock */,
 				93C8B6A62A6A658700C11F94 /* Sources */,
 				93C8B6A72A6A658700C11F94 /* Frameworks */,
 				93C8B6A82A6A658700C11F94 /* Resources */,
@@ -189,6 +224,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3BE63E3CC010951197EA1B65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-custom-media-player-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B488C33CAF497A2BC5F2389 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-custom-media-player-custom-media-playerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93C8B7032A6AA56700C11F94 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		93C8B69C2A6A658700C11F94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -202,7 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93C8B6B02A6A658700C11F94 /* custom_media_playerTests.swift in Sources */,
+				93C8B6B02A6A658700C11F94 /* CustomMediaPlayerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +439,7 @@
 		};
 		93C8B6B52A6A658700C11F94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3E64F4DCAF3FE00B52289C /* Pods-custom-media-player.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -366,6 +467,7 @@
 		};
 		93C8B6B62A6A658700C11F94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C582AE37A022E942AF8C641 /* Pods-custom-media-player.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -393,6 +495,7 @@
 		};
 		93C8B6B82A6A658700C11F94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D9121A9E0323B2DD62396D /* Pods-custom-media-player-custom-media-playerTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -408,6 +511,7 @@
 		};
 		93C8B6B92A6A658700C11F94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495C158257DB0116EB868CCB /* Pods-custom-media-player-custom-media-playerTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
