@@ -14,6 +14,7 @@ final class CustomMediaPlayerTests: XCTestCase {
         // Put setup code here. This method is called before the invocation of each test method in the class.
 //        var first_name: String = ""
 //        print(first_name)
+        var firstName = "Dummmy"
     }
 
     override func tearDownWithError() throws {
